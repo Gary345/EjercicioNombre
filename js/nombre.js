@@ -17,6 +17,8 @@ btnGuardar.addEventListener("click", function(event){
     }
     if (isValid) {
         localStorage.setItem("Nombre", txtNombre.value);
+
+        
         
 
     }
